@@ -42,15 +42,10 @@
 
     > spark-submit --class cloud.gks29.CloudMLTrainer --driver-java-options "-Dlog4j.configuration=file:conf/log4j.properties" CloudMLTrainer.jar hdfs://MASTER:9000/cloud/TrainingDataset.csv hdfs://MASTER:9000/cloud/ValidationDataset.csv hdfs://MASTER:9000/cloud/models
 
-        lr=0.6043784206411259
-        nb=0.4511336982017201
-        dt=0.8858483189992181
-        rndf=0.8248631743549648
-
-        LR F1 Score = 0.59375
-        NB F1 Score = 0.45625
-        DT F1 Score = 0.4875
-        RNDF F1 Score = 0.54375
+    Logistic Regression Model F1 Score = 0.59375
+    NaiveBayes Model F1 Score = 0.45625
+    Decision Tree F1 Score = 0.46875
+    Random Forest F1 Score = 0.5375
 
     > Models will be saved on HDFS
 
