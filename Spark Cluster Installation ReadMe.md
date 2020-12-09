@@ -18,11 +18,9 @@
         172.31.21.244   WORKER-1 :   ec2-18-234-36-59.compute-1.amazonaws.com
         172.31.16.21    WORKER-2 :   ec2-18-212-212-204.compute-1.amazonaws.com
         172.31.23.35    WORKER-3 :   ec2-18-234-172-50.compute-1.amazonaws.com
-
-        172.31.24.202   MASTER
-        172.31.21.244   WORKER-1
-        172.31.16.21    WORKER-2
-        172.31.23.35    WORKER-3
+        172.31.88.233  WORKER-4 :   ec2-3-95-234-255.compute-1.amazonaws.com
+        
+    
 
 3. Configuring machines 
 
