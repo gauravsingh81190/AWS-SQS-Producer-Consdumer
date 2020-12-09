@@ -12,13 +12,13 @@
     sudo yum-config-manager --enable docker-ce-nightly
     sudo yum install docker-ce docker-ce-cli containerd.io
 
-2. Create 4-machines one for named-node and the other 3 nodes for  data nodes
+2. Create 5-machines one for master and 4 to work as worker node.
 
         172.31.24.202   MASTER   :   ec2-34-224-75-159.compute-1.amazonaws.com
         172.31.21.244   WORKER-1 :   ec2-18-234-36-59.compute-1.amazonaws.com
         172.31.16.21    WORKER-2 :   ec2-18-212-212-204.compute-1.amazonaws.com
         172.31.23.35    WORKER-3 :   ec2-18-234-172-50.compute-1.amazonaws.com
-        172.31.88.233  WORKER-4 :   ec2-3-95-234-255.compute-1.amazonaws.com
+        172.31.88.233   WORKER-4 :   ec2-3-95-234-255.compute-1.amazonaws.com
         
     
 
